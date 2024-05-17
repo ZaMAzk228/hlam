@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #0b1d26;
+  color: #ffffff;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 100px;
+}
+
+.preview {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.previewLayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.previewImage {
+  background-image: url(media/background.png);
+  background-size: cover;
+  transform: translateZ(-100px) scale(2);
+  /* z-index: 1; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 80px;
+  height: 25px;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+.navItem {
+  cursor: pointer;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 40px;
+}
+
+.titleWrapper {
+  top: 30%;
+  left: 20%;
+  max-width: 950px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.titleText {
+  font-size: 18px;
+  color: #fbd784;
+  text-transform: uppercase;
+  padding-left: 32px;
+}
+
+.line {
+  width: 72px;
+  height: 2px;
+  background-color: #fbd784;
+}
+
+.titleDescription {
+  font-weight: 600;
+  font-size: 88px;
+  padding-left: 32px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  align-items: center;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 200px;
+}
+
+.sectionInfo {
+  position: relative;
+  max-width: 632px;
+  padding-left: 230px;
+  padding-right: 80px;
+}
+
+.sectionCount {
+  position: absolute;
+  font-size: 240px;
+  font-weight: 700;
+  color: #ffffff;
+  opacity: 0.1;
+  top: -115px;
+  left: 100px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+}
+
+.sectionTitle {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fbd784;
+  padding-left: 24px;
+}
+
+.sectionInfoTitle {
+  font-weight: 600;
+  font-size: 64px;
+  padding-top: 27px;
+}
+
+.sectionInfoText {
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 27px;
+}
+
+.sectionImage1 {
+  padding-right: 80px;
+  padding-left: 170px;
+  max-width: 566px;
+  max-height: 720px;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-column-end: 3;
+  grid-row-end: 2;
+}
+
+.sectionImage2 {
+  padding-right: 80px;
+  padding-left: 170px;
+  max-width: 566px;
+  max-height: 720px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+}
