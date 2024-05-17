@@ -1,0 +1,149 @@
+.batton_back{
+    position: relative;
+    top:30px;
+    left: 110px;
+    width: 171px;
+    height: 42px;
+    border-radius: 0px;
+    border: #F2F3F5;
+    background: #7BA7AB;
+    cursor: pointer;
+    border: 2px solid #BFE2FF;
+}
+
+.side-button-1-wr{
+    top: 37px;
+    left: 140px;
+}
+
+.about{
+    padding-bottom: 120px;
+}
+
+.about_container{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row_about{
+    display: flex;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.about_img{
+    margin-top: 140px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.img_about{
+    border-radius: 10px;
+    border-color: #7BA7AB;
+    max-width: 100%;
+    height: auto;
+}
+
+.about_text{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.about_text_info{
+    padding-left: 68px;
+    margin-bottom: 30px;
+}
+
+.some_text_1{
+    margin-top: 75px;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.some_p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.video_container{
+    max-width: 1140px;
+}
+
+.video{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+}
+
+.text_src{
+    position: relative;
+    top: 200px;
+    left: 60px;
+    
+}
+
+.text_src_main{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text_src_1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 5px;
+    background-color: #7BA7AB;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.text_src_2{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: #7BA7AB;
+    color: black;
+    border-radius: 20px;
+}
+
+.text_link{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_text_mb{
+    margin-top: 100px;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info_p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info_text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
