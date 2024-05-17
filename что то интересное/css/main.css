@@ -1,0 +1,48 @@
+.sometext{
+	font-size: 15px;
+}
+
+.carousel-item {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 576px) {
+	.carousel-item {
+		height: 400px;
+	  }
+
+	  header {
+		  padding-left: 12px;
+		  padding-right: 12px;
+	  }
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.flexxxx{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.horny{
+	font-size: 30px;
+}
+
+.pasport{
+	margin-left: 60px;
+}
+
+.card-img-top {
+	max-height: 300px;
+}
+
+.card{
+	height: 600px;
+}

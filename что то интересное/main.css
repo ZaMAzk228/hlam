@@ -1,0 +1,47 @@
+
+.hr{
+	margin-top: 100px;
+}
+
+.sometext{
+	font-size: 15px;
+}
+
+.carousel-item {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.flexxxx{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.horny{
+	font-size: 30px;
+}
+
+.pasport{
+	margin-left: 60px;
+}
+.bd-placeholder-img{
+	transition: 1s;
+}
+
+.bd-placeholder-img:hover {
+	transform: scale(1.2);
+}
+
+.btn-information{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
